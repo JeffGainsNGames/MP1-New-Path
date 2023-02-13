@@ -16,14 +16,14 @@ This hack is a 1st attempt to test my romhacking capabilities and route design. 
 
 The path created is intentional and any use of OoB is discouraged. Warp to start is also disabled as it shouldn't be needed.
 
-Current testing completion time: 2-4hrs
+Expected completion time: 2-4hrs
 
 ### Difficulty
 
-**Overall** - Beginner-Intermediate
+**Overall** - beginner - intermediate
 
-**Combat** - Fairly standard difficulty
+**Combat** - fairly standard difficulty
 
 **Tricks** - no major tricks, some beginner scan dashes required to traverse magmoor quickly, knowledge of enemy weakpoints without visors, one damage run detailed below.
 
-**Damage Runs** - One Major damage run ~halfway through the hack. Save located before and after. Ample E-tanks provided in prior areas. Will require some beginner scan dashes to cross vanilla rooms quickly. Heat dmg is reduced to make this "close" even with poor movement.  
+**Damage Runs** - one major damage run ~halfway through the hack. Save located before and after. Ample E-tanks provided in prior areas. Will require some beginner scan dashes to cross vanilla rooms quickly. Heat dmg is reduced to make this "close" even with poor movement.  
