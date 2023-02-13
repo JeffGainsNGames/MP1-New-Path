@@ -29,11 +29,10 @@ SPOILERS
 25. Phendrana (Shorelines) -> Magmoor (Monitor Station)
 26. Magmoor (Magmoor Workstation, Debris) -> Phazon Mines (Phazon Processing Center)
 27. X-Ray Visor - Phazon Mines:Central Dynamo
-28. Thermal Visor - Phazon Mines:Metroid Quarantine B
-29. Phazon Suit - Phazon Mines:Elite Quarters
-30. Artifact of Warrior - Phazon Mines:Processing Center Access
-31. Phazon Mines (Phazon Processing Center) -> Magmoor (Magmoor Workstation, Debris)
-32. Magmoor (Magmoor Workstation, Debris) -> Chozo (Main Plaza)
-33. Chozo (Tower of Light) -> Tallon West (Root Cave)
-34. **Artifact Temple**
+28. Phazon Suit - Phazon Mines:Elite Quarters
+29. Artifact of Warrior - Phazon Mines:Processing Center Access
+30. Phazon Mines (Phazon Processing Center) -> Magmoor (Magmoor Workstation, Debris)
+31. Magmoor (Magmoor Workstation, Debris) -> Chozo (Main Plaza)
+32. Chozo (Tower of Light) -> Tallon West (Root Cave)
+33. **Artifact Temple**
 *************************************************************************************************
