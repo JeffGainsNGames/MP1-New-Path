@@ -1,6 +1,9 @@
 MP1: New Path
 
+
 SPOILERS
+*************************************************************************************************
+![](newpathspoiler.png)
 *************************************************************************************************
 1. Morph Ball and Bombs - Tallon:Landing Site
 2. Space Jump - Tallon:Main Ventilation Shaft Section B
