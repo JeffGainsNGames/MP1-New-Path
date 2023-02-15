@@ -1,10 +1,10 @@
-MP1: New Path
-
-
-SPOILERS
 *************************************************************************************************
+### SPOILERS
+*************************************************************************************************
+### Route
 ![](newpathspoiler.png)
 *************************************************************************************************
+### Locations
 1. Morph Ball and Bombs - Tallon:Landing Site
 2. Space Jump - Tallon:Main Ventilation Shaft Section B
 3. Missiles - Tallon:Frigate Crash Site
