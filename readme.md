@@ -20,10 +20,10 @@ Expected completion time: 2-4hrs
 
 ### Difficulty
 
-**Overall** - beginner - intermediate
+**Overall** - beginner to intermediate
 
-**Combat** - fairly standard difficulty
+**Combat** - fairly vanilla combat with the need for knowledge of enemy weakpoints without visors.
 
-**Tricks** - no major tricks, some beginner scan dashes required to traverse magmoor quickly, some tight jumps in lower mines, knowledge of enemy weakpoints without visors, one damage run detailed below.
+**Tricks** - no major tricks, some beginner scan dashes required to traverse magmoor quickly, some tight jumps in lower mines, one damage run detailed below.
 
 **Damage Runs** - one major damage run ~halfway through the hack. Save located before and after. Ample E-tanks provided in prior areas. Will require some beginner scan dashes to cross vanilla rooms quickly. Heat dmg is reduced to make this "close" even with poor movement.  
