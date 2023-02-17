@@ -1,5 +1,5 @@
 # Metroid Prime 1: New Path
-- [Download](https://github.com/JeffGainsNGames/MP1-New-Path/releases/download/v0.9/New-Path-v0.9.zip)
+- [Download](https://github.com/JeffGainsNGames/MP1-New-Path/releases/download/v0.9/New.Path-v0.9.zip)
 - [Spoiler](spoiler/spoiler.md)
 
 ### Credits
@@ -14,7 +14,7 @@ Playtesters: tbd
 1. Download the zip file and extract
 2. Run the patch.bat file
 3. Select your copy of Metroid Prime iso
-4. The patcher will output a patched iso called **MP1 - New Path.iso**
+4. The patcher will output a patched iso called **New Path.iso**
 5. Enjoy!
 
 ### Overview
