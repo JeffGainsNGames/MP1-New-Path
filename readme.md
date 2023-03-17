@@ -6,9 +6,9 @@
 
 Layout/World Creator: JeffGainsNGames
 
-Plando/ROM Hacking: [toasterparty](https://github.com/toasterparty/metroid-prime-fanhacks)
+Plando Tools: [toasterparty](https://github.com/toasterparty/metroid-prime-fanhacks)
 
-Playtesters: tbd
+Playtesters: XenoWars, ComZeke
 
 ### How to play
 1. Download the zip file and extract
