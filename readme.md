@@ -19,7 +19,9 @@ Playtesters: XenoWars, Comzeke, Deetun
 
 ### Overview
 
-This hack is a 1st attempt to test my romhacking capabilities and route design. I was a beginner at tricks when I came up with this so it should be completable by all. Some tricks however might reward some players with shiny missiles!! And it is rather linear, yes.
+This hack is a 1st attempt to test my romhacking capabilities and route design. I was a beginner at tricks when I came up with this so it should be completable by most. Some intermediate+ tricks however might reward some players with shiny missiles!! 
+
+And it is rather linear, yes.
 
 This hack includes some unique item locations (nothing hard required is hidden/hard to find but I suggest you look around *cough cough main quarry*), water changes, and new objects added to support the route.
 
