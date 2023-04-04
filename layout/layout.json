@@ -1,0 +1,3772 @@
+{
+    "seed": 402400,
+    "preferences": {
+        "defaultGameOptions": {
+            "screenBrightness": 5,
+            "screenOffsetX": 0,
+            "screenOffsetY": 0,
+            "screenStretch": 0,
+            "soundMode": 1,
+            "sfxVolume": 127,
+            "musicVolume": 127,
+            "visorOpacity": 255,
+            "helmetOpacity": 0,
+            "hudLag": false,
+            "reverseYAxis": false,
+            "rumble": true,
+            "swapBeamControls": false
+        },
+        "qolGameBreaking": true,
+        "qolCosmetic": true,
+        "qolPickupScans": true,
+        "qolCutscenes": "competitive",
+        "mapDefaultState": "default",
+        "artifactHintBehavior": "all",
+        "automaticCrashScreen": true,
+        "trilogyDiscPath": null,
+        "quickplay": false,
+        "quickpatch": false,
+        "skipSplashScreens": false,
+        "quiet": false,
+        "suitColors": {
+			"powerDeg": 200,
+			"variaDeg": 320,
+            "phazonDeg": 60
+        },
+        "forceFusion": false,
+        "visibleBoundingBox": false
+    },
+    "gameConfig": {
+        "resultsString": "New Path 1.0",
+        "bossSizes": {
+            "parasiteQueen": 1.0,
+            "incineratorDrone": 1.25,
+            "flaahgra": 1.2,
+            "adultSheegoth": 1.05,
+            "thardus": 1.3,
+            "elitePirate1": 1.2,
+            "elitePirate2": 1.2,
+            "elitePirate3": 1.3,
+            "phazonElite": 1.0,
+            "omegaPirate": 1.2,
+            "Ridley": 1.1,
+            "Exo": 1.2,
+            "Essence": 1.1
+        },
+		"noDoors": false,
+        "shufflePickupPosition": false,
+        "shufflePickupPosAllRooms": false,
+        "removeVanillaBlastShields": true,
+        "startingRoom": "Tallon:Landing Site",
+        "startingMemo": "Initial scans indicate morph related upgrades in the area",
+        "warpToStart": false,
+        "springBall": false,
+        "hallOfTheEldersBombSlotCovers": {
+            "wave": "plasma",
+            "ice": "ice",
+            "plasma": "wave"
+        },
+        "incineratorDroneConfig": {
+            "eyeWaitInitialRandomTime": 0.0,
+            "eyeWaitRandomTime": 0.0,
+            "eyeStayUpRandomTime": 0.0,
+            "resetContraptionRandomTime": 0.0,
+            "eyeWaitInitialMinimumTime": 8.657428036853762,
+            "eyeWaitMinimumTime": 18.771799326918632,
+            "eyeStayUpMinimumTime": 8.609284192392574,
+            "resetContraptionMinimumTime": 4.299550398757779
+        },
+        "mazeSeeds": [
+            65606
+        ],
+        "nonvariaHeatDamage": true,
+        "staggeredSuitDamage": true,
+        "heatDamagePerSec": 6,
+        "autoEnabledElevators": true,
+        "multiworldDolPatches": true,
+        "disableItemLoss": true,
+        "startingItems": {
+            "powerBeam": true,
+            "ice": false,
+            "wave": false,
+            "plasma": false,
+            "missiles": 0,
+            "scanVisor": true,
+            "bombs": false,
+            "powerBombs": 0,
+            "flamethrower": false,
+            "thermalVisor": false,
+            "charge": false,
+            "superMissile": false,
+            "grapple": false,
+            "xray": false,
+            "iceSpreader": false,
+            "spaceJump": false,
+            "morphBall": false,
+            "combatVisor": true,
+            "boostBall": false,
+            "spiderBall": false,
+            "gravitySuit": false,
+            "variaSuit": false,
+            "phazonSuit": false,
+            "energyTanks": 0,
+            "wavebuster": false
+        },
+        "etankCapacity": 100,
+        "itemMaxCapacity": {
+            "Energy Tank": 200,
+            "Power Bomb": 99,
+            "Missile": 999,
+            "Unknown Item 1": 65536
+        },
+        "mainPlazaDoor": true,
+        "backwardsFrigate": false,
+        "backwardsLabs": false,
+        "backwardsUpperMines": true,
+        "backwardsLowerMines": false,
+        "phazonEliteWithoutDynamo": true,
+        "gameBanner": {
+            "gameName": "Metroid Prime",
+            "gameNameFull": "Metroid Prime: New Path",
+            "description": "New Path"
+        },
+        "mainMenuMessage": "New Path 1.0",
+        "creditsString": "&push;&font=C29C51F1;&main-color=#7500ff;New Path by JeffGainsNGames&pop;\n&push;&font=C29C51F1;&main-color=#3BEC94;Major Item Locations&pop;\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Wave Beam&pop;\nPhendrana Drifts - Research Core\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Ice Beam&pop;\nPhendrana Drifts - Chozo Ice Temple\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Plasma Beam&pop;\nChozo Ruins - Burn Dome\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Missile Launcher&pop;\nTallon Overworld - Frigate Crash Site\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Grapple Beam&pop;\nMissing\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Scan Visor&pop;\nStarting\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Thermal Visor&pop;\nMissing\n\n&push;&font=C29C51F1;&main-color=#3BEC94;X-Ray Visor&pop;\nPhazon Mines - Central Dynamo\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Space Jump Boots&pop;\nTallon Overworld - Main Ventilation Shaft B\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Morph Ball&pop;\nTallon Overworld - Landing Site\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Morph Ball Bomb&pop;\nTallon Overworld - Landing Site\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Boost Ball&pop;\nMissing\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Spider Ball&pop;\nChozo Ruins - Dynamo\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Power Bomb&pop;\nPhendrana Drifts - Chapel of Elders\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Varia Suit&pop;\nPhazon Mines - Main Quarry\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Gravity Suit&pop;\nMissing\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Phazon Suit&pop;\nPhazon Mines - Elite Quarters\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Super Missile&pop;\nChozo Ruins - Ruined Fountain\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Flamethrower&pop;\nTallon - Alcove\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Artifact of Nature&pop;\nChozo Ruins - Sunchamber\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Artifact of Warrior&pop;\nPhazon Mines - Phazon Processing Access\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Artifact of World&pop;\nPhendrana Drifts - Quarantine Cave\n\n\n\n\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Thank you to toasterparty for providing the tools to make this possible and answering all my questions\nThank you to the community for help in troubleshooting and testing&pop;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSee you next time!",
+		"artifactHints": {
+            "Artifact of Chozo": "Chozo",
+            "Artifact of Nature": "The Artifact of &push;&main-color=#f76007;Nature&pop; is protected by a great warrior empowered by the &push;&main-color=#3BEC94;Sun&pop; in the &push;&main-color=#B68D40;Forgotten Ruins&pop;.",
+            "Artifact of Sun": "Sun",
+            "Artifact of World": "The Artifact of &push;&main-color=#f76007;World&pop; is protected by a great warrior of &push;&main-color=#3BEC94;Earth and Stone&pop; in the &push;&main-color=#ffffff;Frozen Wastes&pop;.",
+            "Artifact of Spirit": "Spirit",
+            "Artifact of Newborn": "Newborn",
+            "Artifact of Truth": "Truth",
+            "Artifact of Strength": "Strength",
+            "Artifact of Elder": "Elder",
+            "Artifact of Wild": "Wild",
+            "Artifact of Lifegiver": "Life",
+            "Artifact of Warrior": "The Artifact of &push;&main-color=#f76007;Warrior&pop; is protected by a great warrior of &push;&main-color=#3BEC94;Poison&pop; deep in the &push;&main-color=#A020F0;Mines&pop;."
+        },
+        "updateHintStateReplacement": [
+            148,
+            33,
+            255,
+            204,
+            124,
+            8,
+            2,
+            166,
+            144,
+            1,
+            0,
+            56,
+            191,
+            193,
+            0,
+            44,
+            124,
+            127,
+            27,
+            120,
+            136,
+            159,
+            0,
+            2,
+            44,
+            4,
+            0,
+            0,
+            64,
+            130,
+            0,
+            24,
+            187,
+            193,
+            0,
+            44,
+            128,
+            1,
+            0,
+            56,
+            124,
+            8,
+            3,
+            166,
+            56,
+            33,
+            0,
+            52,
+            78,
+            128,
+            0,
+            32,
+            63,
+            192,
+            128,
+            4,
+            99,
+            222,
+            77,
+            140,
+            56,
+            128,
+            1,
+            128,
+            124,
+            4,
+            247,
+            172,
+            44,
+            4,
+            0,
+            0,
+            56,
+            132,
+            255,
+            224,
+            64,
+            130,
+            255,
+            244,
+            124,
+            0,
+            4,
+            172,
+            76,
+            0,
+            1,
+            44,
+            56,
+            192,
+            0,
+            0,
+            152,
+            223,
+            0,
+            2,
+            187,
+            193,
+            0,
+            44,
+            128,
+            1,
+            0,
+            56,
+            124,
+            8,
+            3,
+            166,
+            56,
+            33,
+            0,
+            52,
+            78,
+            128,
+            0,
+            32
+        ]
+    },
+    "tweaks": {},
+    "levelData": {
+        "Impact Crater": {
+            "transports": {
+                "Crater Entry Point": "Artifact Temple",
+                "Essence Dead Cutscene": "Frigate Orpheon:Exterior Docking Hangar"
+            },
+            "rooms": {
+                "Crater Entry Point": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Crater Tunnel A": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Phazon Core": {
+                    "pickups": [],
+                    "doors": {}                    
+                },
+                "Crater Missile Station": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Crater Tunnel B": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Phazon Infusion Chamber": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Subchamber One": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Subchamber Two": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Subchamber Three": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Subchamber Four": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Subchamber Five": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Metroid Prime Lair": {
+                    "pickups": [],
+                    "doors": {}
+                }
+            }
+        },
+        "Phendrana Drifts": {
+            "transports": {
+                "Phendrana Drifts North\u0000(Phendrana Shorelines)": "Magmoor Caverns West\u0000(Monitor Station)",
+                "Phendrana Drifts South\u0000(Quarantine Cave)": "Magmoor Caverns North\u0000(Lava Lake)"
+            },
+            "rooms": {
+                "Transport to Magmoor Caverns West": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Shoreline Entrance": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Phendrana Shorelines": {
+                    "pickups": [
+                        {
+                            "type": "Missile",
+                            "scanText": "Missile Expansion. Provides 5 Missiles.",
+                            "hudmemoText": "Missile Expansion acquired!",
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
+                            "respawn": false,
+                            "model": "Missile"
+                        },
+                        {
+                            "type": "Missile",
+                            "scanText": "Missile Expansion. Provides 5 Missiles.",
+                            "hudmemoText": "Missile Expansion acquired!",
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
+                            "respawn": false,
+                            "model": "Missile"
+                        }
+                    ],
+                    "doors": {
+                        "2": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+						"3": {
+                            "shieldType": "Wave",
+                            "blastShieldType": "None"
+                        },
+                        "4": {
+                            "shieldType": "Disabled",
+                            "blastShieldType": "None"
+                        },
+                        "5": {
+                            "shieldType": "Disabled",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Temple Entryway": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Save Station B": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Ruins Entryway": {
+                    "pickups": [],
+                    "doors": {
+						"1": {
+                            "shieldType": "Wave",
+                            "blastShieldType": "None"
+                        }
+					}
+                },
+                "Plaza Walkway": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Ice Ruins Access": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Chozo Ice Temple": {
+                    "pickups": [
+                        {
+                            "type": "Ice Beam",
+                            "scanText": "Ice Beam.",
+                            "hudmemoText": "Ice Beam acquired!",
+                            "currIncrease": 1,
+                            "maxIncrease": 1,
+                            "respawn": false,
+                            "model": "Ice Beam"
+                        }
+                    ],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Wave",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Ice Ruins West": {
+                    "pickups": [
+                        {
+                            "type": "Missile",
+                            "scanText": "Missile Expansion. Provides 5 Missiles.",
+                            "hudmemoText": "Missile Expansion acquired!",
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
+                            "respawn": false,
+                            "model": "Missile"
+                        }
+                    ],
+                    "doors": {
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "2": {
+                            "shieldType": "Disabled",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Ice Ruins East": {
+                    "pickups": [
+                        {
+                            "type": "Missile",
+                            "scanText": "Missile Expansion. Provides 5 Missiles.",
+                            "hudmemoText": "Missile Expansion acquired!",
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
+                            "respawn": false,
+                            "model": "Missile"
+                        },
+                        {
+                            "type": "Missile",
+                            "scanText": "Missile Expansion. Provides 5 Missiles.",
+                            "hudmemoText": "Missile Expansion acquired!",
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
+                            "respawn": false,
+                            "model": "Missile"
+                        }
+                    ],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Chapel Tunnel": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Wave",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Courtyard Entryway": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+						"1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Canyon Entryway": {
+                    "pickups": [],
+                    "doors": {
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Chapel of the Elders": {
+                    "pickups": [
+                        {
+                            "type": "Power Bomb",
+                            "scanText": "Main Power Bombs. Provides 4 Power Bombs.",
+                            "hudmemoText": "Main Power Bombs acquired!",
+                            "currIncrease": 4,
+                            "maxIncrease": 4,
+                            "respawn": false,
+                            "model": "Power Bomb"
+                        }
+                    ],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Ruined Courtyard": {
+                    "pickups": [
+                        {
+                            "type": "Missile",
+                            "scanText": "Missile Expansion. Provides 5 Missiles.",
+                            "hudmemoText": "Missile Expansion acquired!",
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
+                            "respawn": false,
+                            "model": "Missile"
+                        }
+                    ],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "Missiles"
+                        },
+                        "2": {
+                            "shieldType": "Disabled",
+                            "blastShieldType": "None"
+                        },
+                        "3": {
+                            "shieldType": "Wave",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Phendrana Canyon": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Save Station A": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "Missiles"
+                        }
+                    }
+                },
+                "Specimen Storage": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Quarantine Access": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+						"1": {
+                            "shieldType": "Wave",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Research Entrance": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "North Quarantine Tunnel": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Map Station": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Hydra Lab Entryway": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Quarantine Cave": {
+                    "pickups": [
+                        {
+                            "type": "Artifact of World",
+                            "scanText": "Artifact of World",
+                            "hudmemoText": "Artifact of World acquired!",
+                            "currIncrease": 1,
+                            "maxIncrease": 1,
+                            "respawn": false,
+                            "model": "Artifact of World"
+                        }
+                    ],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Research Lab Hydra": {
+                    "pickups": [
+                        {
+                            "type": "Missile",
+                            "scanText": "Missile Expansion. Provides 5 Missiles.",
+                            "hudmemoText": "Missile Expansion acquired!",
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
+                            "respawn": false,
+                            "model": "Missile"
+                        }
+                    ],
+                    "doors": {}
+                },
+                "South Quarantine Tunnel": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Quarantine Monitor": {
+                    "pickups": [
+                        {
+                            "type": "Missile",
+                            "scanText": "Shiny Missile Expansion. Provides 25 Missiles.",
+                            "hudmemoText": "Shiny Missile Expansion acquired!",
+                            "currIncrease": 25,
+                            "maxIncrease": 25,
+                            "respawn": false,
+                            "model": "Shiny Missile"
+                        }
+                    ],
+                    "doors": {}
+                },
+                "Observatory Access": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Transport to Magmoor Caverns South": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Charge",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Observatory": {
+                    "pickups": [
+                        {
+                            "type": "Missile",
+                            "scanText": "Missile Expansion. Provides 5 Missiles.",
+                            "hudmemoText": "Missile Expansion acquired!",
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
+                            "respawn": false,
+                            "model": "Missile"
+                        }
+                    ],
+                    "doors": {}
+                },
+                "Transport Access": {
+                    "pickups": [
+                        {
+                            "type": "Energy Tank",
+                            "scanText": "Energy Tank. Provides 100 Energy.",
+                            "hudmemoText": "Energy Tank acquired!",
+                            "currIncrease": 1,
+                            "maxIncrease": 1,
+                            "respawn": false,
+                            "model": "Energy Tank"
+                        }
+                    ],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "West Tower Entrance": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Save Station D": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Frozen Pike": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "2": {
+                            "shieldType": "Disabled",
+                            "blastShieldType": "None"
+                        },
+                        "3": {
+                            "shieldType": "Disabled",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "West Tower": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Pike Access": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "Missiles"
+                        }
+                    }
+                },
+                "Frost Cave Access": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Hunter Cave Access": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Control Tower": {
+                    "pickups": [],
+                    "doors": {}                   
+                },
+                "Research Core": {
+                    "pickups": [
+                        {
+                            "type": "Wave Beam",
+                            "scanText": "Wave Beam.",
+                            "hudmemoText": "Wave Beam acquired!",
+                            "currIncrease": 1,
+                            "maxIncrease": 1,
+                            "respawn": false,
+                            "model": "Wave Beam"
+                        }
+                    ],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Wave",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Disabled",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Frost Cave": {
+                    "pickups": [
+                        {
+                            "type": "Missile",
+                            "scanText": "Missile Expansion. Provides 5 Missiles.",
+                            "hudmemoText": "Missile Expansion acquired!",
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
+                            "respawn": false,
+                            "model": "Missile"
+                        }
+                    ],
+                    "doors": {}
+                },
+                "Hunter Cave": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "East Tower": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Research Core Access": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Save Station C": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Upper Edge Tunnel": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Lower Edge Tunnel": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Chamber Access": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Lake Tunnel": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Aether Lab Entryway": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Research Lab Aether": {
+                    "pickups": [
+                        {
+                            "type": "Missile",
+                            "scanText": "Missile Expansion. Provides 5 Missiles.",
+                            "hudmemoText": "Missile Expansion acquired!",
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
+                            "respawn": false,
+                            "model": "Missile"
+                        },
+                        {
+                            "type": "Missile",
+                            "scanText": "Missile Expansion. Provides 5 Missiles.",
+                            "hudmemoText": "Missile Expansion acquired!",
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
+                            "respawn": false,
+                            "model": "Missile"
+                        }
+                    ],
+                    "doors": {}
+                },
+                "Phendrana's Edge": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Gravity Chamber": {
+                    "pickups": [
+                        {
+                            "type": "Missile",
+                            "scanText": "Missile Expansion. Provides 5 Missiles.",
+                            "hudmemoText": "Missile Expansion acquired!",
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
+                            "respawn": false,
+                            "model": "Missile"
+                        },
+                        {
+                            "type": "Missile",
+                            "scanText": "Missile Expansion. Provides 5 Missiles.",
+                            "hudmemoText": "Missile Expansion acquired!",
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
+                            "respawn": false,
+                            "model": "Missile"
+                        }
+                    ],
+                    "doors": {}
+                },
+                "Storage Cave": {
+                    "pickups": [
+                        {
+                            "type": "Missile",
+                            "scanText": "Missile Expansion. Provides 5 Missiles.",
+                            "hudmemoText": "Missile Expansion acquired!",
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
+                            "respawn": false,
+                            "model": "Missile"
+                        }
+                    ],
+                    "doors": {}
+                },
+                "Security Cave": {
+                    "pickups": [],
+                    "doors": {}
+                }
+            }
+        },
+		"Frigate Orpheon": {
+            "transports": {
+                "Frigate Escape Cutscene": "Tallon Overworld:Landing Site"
+            },
+            "rooms": {
+                "Exterior Docking Hangar": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Air Lock": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Deck Alpha Access Hall": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Deck Alpha Mech Shaft": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Emergency Evacuation Area": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Connection Elevator to Deck Alpha": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Deck Alpha Umbilical Hall": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Biotech Research Area 2": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Map Facility": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Main Ventilation Shaft Section F": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Connection Elevator to Deck Beta": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Main Ventilation Shaft Section E": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Deck Beta Conduit Hall": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Main Ventilation Shaft Section D": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Biotech Research Area 1": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Main Ventilation Shaft Section C": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Deck Beta Security Hall": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Connection Elevator to Deck Beta (2)": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Subventilation Shaft Section A": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Main Ventilation Shaft Section B": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Biohazard Containment": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Deck Gamma Monitor Hall": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Subventilation Shaft Section B": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Main Ventilation Shaft Section A": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Deck Beta Transit Hall": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Reactor Core": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Cargo Freight Lift to Deck Gamma": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Reactor Core Entrance": {
+                    "pickups": [],
+                    "doors": {}
+                }
+            }
+        },
+        "Magmoor Caverns": {
+            "transports": {
+                "Magmoor Caverns North\u0000(Lava Lake)": "Phendrana Drifts South\u0000(Quarantine Cave)",
+                "Magmoor Caverns West\u0000(Monitor Station)": "Phendrana Drifts North\u0000(Phendrana Shorelines)",
+                "Magmoor Caverns East\u0000(Twin Fires)": "Phazon Mines East\u0000(Main Quarry)",
+                "Magmoor Caverns South\u0000(Magmoor Workstation, Debris)": "Phazon Mines West\u0000(Phazon Processing Center)",
+                "Magmoor Caverns South\u0000(Magmoor Workstation, Save Station)": "Chozo Ruins West\u0000(Main Plaza)"
+            },
+            "rooms": {
+                "Transport to Chozo Ruins North": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Burning Trail": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Ice",
+                            "blastShieldType": "None"
+                        },
+                        "2": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "Missile"
+                        }
+                    }
+                },
+                "Lake Tunnel": {
+                    "pickups": [],
+                    "doors": {
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    },
+                    "superheated": true
+                },
+                "Save Station Magmoor A": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Lava Lake": {
+                    "pickups": [
+                        {
+                            "type": "Missile",
+                            "scanText": "Missile Expansion. Provides 5 Missiles.",
+                            "hudmemoText": "Missile Expansion acquired!",
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
+                            "respawn": false,
+                            "model": "Missile"
+                        }
+                    ],
+                    "doors": {
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    },
+                    
+                    "superheated": true
+                },
+                "Pit Tunnel": {
+                    "pickups": [],
+                    "doors": {
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    },
+                    "superheated": true
+                },
+                "Triclops Pit": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    },
+                    "superheated": true
+                },
+                "Monitor Tunnel": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Ice",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    },
+                    "superheated": true
+                },
+                "Storage Cavern": {
+                    "pickups": [
+                        {
+                            "type": "Missile",
+                            "scanText": "Missile Expansion. Provides 5 Missiles.",
+                            "hudmemoText": "Missile Expansion acquired!",
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
+                            "respawn": false,
+                            "model": "Missile"
+                        }
+                    ],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    },
+                    "superheated": true
+                },
+                "Monitor Station": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+						"0": {
+                            "shieldType": "Ice",
+                            "blastShieldType": "None"
+                        },
+                        "2": {
+                            "shieldType": "disabled",
+                            "blastShieldType": "None"
+                        }
+                    },
+                    "superheated": true
+                },
+                "Transport Tunnel A": {
+                    "pickups": [
+                        {
+                            "type": "Missile",
+                            "scanText": "Missile Expansion. Provides 5 Missiles.",
+                            "hudmemoText": "Missile Expansion acquired!",
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
+                            "respawn": false,
+                            "model": "Missile"
+                        }
+                    ],
+                    "doors": {},
+                    "superheated": true
+                },
+                "Warrior Shrine": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Shore Tunnel": {
+                    "pickups": [
+                        {
+                            "type": "Power Bomb",
+                            "scanText": "Power Bomb expansion. Provides 1 Power Bomb.",
+                            "hudmemoText": "Power Bomb Expansion acquired!",
+                            "currIncrease": 1,
+                            "maxIncrease": 1,
+                            "respawn": false,
+                            "model": "Power Bomb Expansion"
+                        }
+                    ],
+                    "doors": {
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    },
+                    "superheated": true
+                },
+                "Transport to Phendrana Drifts North": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Fiery Shores": {
+                    "pickups": [
+                        {
+                            "type": "Missile",
+                            "scanText": "Missile Expansion. Provides 5 Missiles.",
+                            "hudmemoText": "Missile Expansion acquired!",
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
+                            "respawn": false,
+                            "model": "Missile"
+                        },
+                        {
+                            "type": "Missile",
+                            "scanText": "Missile Expansion. Provides 5 Missiles.",
+                            "hudmemoText": "Missile Expansion acquired!",
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
+                            "respawn": false,
+                            "model": "Missile"
+                        }
+                    ],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    },
+                    "superheated": true
+                },
+                "Transport Tunnel B": {
+                    "pickups": [],
+                    "doors": {},
+                    "superheated": true
+                },
+                "Transport to Tallon Overworld West": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Twin Fires Tunnel": {
+                    "pickups": [],
+                    "doors": {},           
+                    "platforms": [
+                        {
+                            "position": [
+                                330.76,
+                                -620.80,
+                                22.41
+                            ],
+                            "rotation": [
+                                3.92,
+                                42.34,
+                                22.09
+                            ]
+                        }
+                    ]
+                },
+                "Twin Fires": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    },
+                    "superheated": true
+                },
+                "North Core Tunnel": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    },
+                    "superheated": true
+                },
+                "Geothermal Core": {
+                    "pickups": [
+						{
+							"type": "Missile",
+                            "scanText": "Shiny Missile Expansion. Provides 25 Missiles.",
+                            "hudmemoText": "Shiny Missile Expansion acquired!",
+                            "currIncrease": 25,
+                            "maxIncrease": 25,
+                            "respawn": false,
+                            "model": "Shiny Missile",
+							"position": [ 387.9735, -824.9435, 51.2872 ]
+						}
+					],
+                    "doors": {
+                        "1": {
+                            "shieldType": "Disabled",
+                            "blastShieldType": "None"
+                        }
+                    },                  
+                    "superheated": true
+                },
+                "Plasma Processing": {
+                    "pickups": [
+                        {
+                            "type": "Missile",
+                            "scanText": "Missile Expansion. Provides 5 Missiles.",
+                            "hudmemoText": "Missile Expansion acquired!",
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
+                            "respawn": false,
+                            "model": "Missile"
+                        }
+                    ],
+                    "doors": {},
+                    "superheated": true
+                },
+                "South Core Tunnel": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    },
+                    "superheated": true
+                },
+                "Magmoor Workstation": {
+                    "pickups": [
+                        {
+                            "type": "Energy Tank",
+                            "scanText": "Energy Tank. Provides 100 Energy.",
+                            "hudmemoText": "Energy Tank acquired!",
+                            "currIncrease": 1,
+                            "maxIncrease": 1,
+                            "respawn": false,
+                            "model": "Energy Tank"
+                        }
+                    ],
+                    "doors": {
+                        "1": {
+                            "shieldType": "Wave",
+                            "blastShieldType": "None"
+                        },
+                        "2": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    },                  
+                    "superheated": true
+                },
+                "Workstation Tunnel": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Wave",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Transport Tunnel C": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    },
+                    "superheated": true
+                    
+                },
+                "Transport to Phazon Mines West": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Transport to Phendrana Drifts South": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+						"1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Save Station Magmoor B": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                }
+            }
+        },
+        "Phazon Mines": {
+            "transports": {
+                "Phazon Mines East\u0000(Main Quarry)": "Magmoor Caverns East\u0000(Twin Fires)",
+                "Phazon Mines West\u0000(Phazon Processing Center)": "Magmoor Caverns South\u0000(Magmoor Workstation, Debris)"
+            },
+            "rooms": {
+                "Transport to Tallon Overworld South": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Quarry Access": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Main Quarry": {
+                    "pickups": [
+                        {
+                            "type": "Power Bomb",
+                            "scanText": "Power Bomb expansion. Provides 1 Power Bomb.",
+                            "hudmemoText": "Power Bomb Expansion acquired!",
+                            "currIncrease": 1,
+                            "maxIncrease": 1,
+                            "respawn": false,
+                            "model": "Power Bomb Expansion"
+						},
+						{
+							"type": "Varia Suit",
+                            "scanText": "Varia Suit",
+                            "hudmemoText": "Varia Suit acquired!",
+                            "currIncrease": 1,
+                            "maxIncrease": 1,
+                            "respawn": false,
+                            "model": "Varia Suit",
+							"position": [
+                                96.123,
+                                14.048,
+                                0.965
+                            ]
+                        }
+                    ],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Disabled",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "2": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "Missile"
+                        },
+                        "3": {
+                            "shieldType": "Disabled",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Waste Disposal": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Save Station Mines A": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Security Access A": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Ore Processing": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Mine Security Station": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Research Access": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Storage Depot B": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Elevator Access A": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Security Access B": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Storage Depot A": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Elite Research": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Elevator A": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Elite Control Access": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Elite Control": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Disabled",
+                            "blastShieldType": "None"
+                        },
+                        "2": {
+                            "shieldType": "Wave",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Maintenance Tunnel": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Ventilation Shaft": {
+                    "pickups": [
+                        {
+                            "type": "Power Bomb",
+                            "scanText": "Power Bomb expansion. Provides 1 Power Bomb.",
+                            "hudmemoText": "Power Bomb Expansion acquired!",
+                            "currIncrease": 1,
+                            "maxIncrease": 1,
+                            "respawn": false,
+                            "model": "Power Bomb Expansion"
+                           
+                        }
+                    ],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Wave",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Phazon Processing Center": {
+                    "pickups": [
+                        {
+                            "type": "Missile",
+                            "scanText": "Missile",
+                            "hudmemoText": "Missile expansion acquired!",
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
+                            "respawn": false,
+                            "model": "Missile"
+                        }
+                    ],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Ice",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "Missiles"
+                        },
+                        "2": {
+                            "shieldType": "Plasma",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Omega Research": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Disabled",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "2": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Transport Access": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Ice",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Ice",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Processing Center Access": {
+                    "pickups": [
+                        {
+                            "type": "Artifact of Warrior",
+                            "scanText": "Artifact of Warrior",
+                            "hudmemoText": "Artifact of Warrior acquired!",
+                            "currIncrease": 1,
+                            "maxIncrease": 1,
+                            "respawn": false,
+                            "model": "Artifact of Warrior"
+                        }
+                    ],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Plasma",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Plasma",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Map Station Mines": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Dynamo Access": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Ice",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Transport to Magmoor Caverns South": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Ice",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Elite Quarters": {
+                    "pickups": [
+						{
+							"type": "Phazon Suit",
+                            "scanText": "Phazon Suit",
+                            "hudmemoText": "Phazon Suit acquired!",
+                            "currIncrease": 1,
+                            "maxIncrease": 1,
+                            "respawn": false,
+                            "model": "Phazon Suit"
+						}
+					],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Plasma",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Plasma",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Central Dynamo": {                 
+                    "pickups": [
+                        {
+                            "type": "X-Ray Visor",
+                            "scanText": "X-Ray Visor",
+                            "hudmemoText": "X-Ray Visor acquired!",
+                            "currIncrease": 1,
+                            "maxIncrease": 1,
+                            "respawn": false,
+                            "model": "X-Ray Visor"
+                        }
+                    ],                   
+                    "doors": {
+                        "0": {
+                            "shieldType": "Ice",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "2": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "Missiles"
+                        }
+                    }
+                },
+                "Elite Quarters Access": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Plasma",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Plasma",
+                            "blastShieldType": "Flamethrower"
+                        }
+                    }
+                },
+                "Quarantine Access A": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Wave",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Save Station Mines B": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Metroid Quarantine B": {
+                    "pickups": [
+                        {
+                            "type": "Missile",
+                            "scanText": "Missile Expansion. Provides 5 Missiles.",
+                            "hudmemoText": "Missile Expansion acquired!",
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
+                            "respawn": false,
+                            "model": "Missile"
+                        }
+                    ],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Plasma",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Plasma",
+                            "blastShieldType": "None"
+                        },
+                        "2": {
+                            "shieldType": "Plasma",
+                            "blastShieldType": "None"
+                        }
+                    },
+					"platforms": [
+                        {
+                            "position": [
+                                -18.471,
+                                -92.406,
+                                -148.140
+                            ],
+                            "rotation": [
+                                0,
+                                0,
+                                8.75
+                            ],
+							"xrayOnly": true
+						}
+                    ],
+					"superheated": true,                  
+                    "liquids": [
+                        {
+                            "type": "lava",
+                            "position": [-43.3, -119.3, -172.3],
+                            "scale": [300.0, 300.0, 16.0]
+                        }
+					]
+                },
+                "Metroid Quarantine A": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Wave",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Plasma",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Quarantine Access B": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Plasma",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Plasma",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Save Station Mines C": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Plasma",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Elevator Access B": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Plasma",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Fungal Hall B": {
+                    "pickups": [
+                        {
+                            "type": "Missile",
+                            "scanText": "Missile Expansion. Provides 5 Missiles.",
+                            "hudmemoText": "Missile Expansion acquired!",
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
+                            "respawn": false,
+                            "model": "Missile",
+							"position": [-18.471, -92.406,-200.140]
+                        }
+                    ],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Plasma",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Plasma",
+                            "blastShieldType": "None"
+                        },
+                        "2": {
+                            "shieldType": "Plasma",
+                            "blastShieldType": "None"
+                        }
+                    },
+                    "superheated": true,
+                    "liquids": [
+                        {
+                            "type": "lava",
+                            "position": [135.0, 33.0, -164],
+                            "scale": [75.0, 155.0, 8.0]
+                        }
+                    ],
+					"platforms": [
+                        {
+                            "position": [ 131.275,10.898, -147.53
+                            ],
+                            "rotation": [ 0, 0,8.75]
+						},
+						{
+							"position": [130.441, -4.6,-147.09],
+                            "rotation": [0,0,8.75]
+						}
+                    ]
+                },
+                "Elevator B": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "Missiles"
+                        }
+                    },
+					"hudmemos": [
+						{
+							"text": "Warning! Extreme heat detected ahead",
+							"triggerPosition": [161.5, 392.5, -148.7],
+							"triggerScale": [10,10,10],
+							"disableOnEnter": true
+						}
+					]
+                },
+                "Missile Station Mines": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Phazon Mining Tunnel": {
+                    "pickups": [
+                        {
+                            "type": "Missile",
+                            "scanText": "Missile Expansion. Provides 5 Missiles.",
+                            "hudmemoText": "Missile Expansion acquired!",
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
+                            "respawn": false,
+                            "model": "Missile"
+                        }
+                    ],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Plasma",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Plasma",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Fungal Hall Access": {
+                    "pickups": [
+                        {
+                            "type": "Energy Tank",
+                            "scanText": "Energy Tank. Provides 100 Energy.",
+                            "hudmemoText": "Energy Tank acquired!",
+                            "currIncrease": 1,
+                            "maxIncrease": 1,
+                            "respawn": false,
+                            "model": "Energy Tank"
+                        }
+                    ],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Plasma",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Fungal Hall A": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Plasma",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Plasma",
+                            "blastShieldType": "None"
+                        }
+                    },
+                    "superheated": true,                  
+                    "liquids": [
+                        {
+                            "type": "lava",
+                            "position": [131.601547, 249.20134, -171.548355],
+                            "scale": [80.0, 160.0,
+                            6.0]
+                        }
+					],
+					"platforms": [
+                        {
+                            "position": [
+                                124.7,
+                                204.50,
+                                -150.53
+                            ],
+                            "rotation": [
+                                0,
+                                0,
+                                8.75
+                            ]
+						}
+                    ]
+                }
+            }
+        },
+        "Tallon Overworld": {
+            "transports": {
+                "Tallon Overworld North\u0000(Tallon Canyon)": "Chozo Ruins South\u0000(Reflecting Pool, Far End)",
+                "Artifact Temple": "Credits",
+                "Tallon Overworld East\u0000(Frigate Crash Site)": "Chozo Ruins East\u0000(Reflecting Pool, Save Station)",
+                "Tallon Overworld West\u0000(Root Cave)": "Chozo Ruins North\u0000(Sun Tower)",
+                "Tallon Overworld South\u0000(Great Tree Hall, Upper)": "Phazon Mines West\u0000(Phazon Processing Center)",
+                "Tallon Overworld South\u0000(Great Tree Hall, Lower)": "Magmoor Caverns West\u0000(Monitor Station)"
+            },
+            "rooms": {
+                "Landing Site": {
+                    "pickups": [
+                        {
+                            "type": "Morph Ball",
+                            "scanText": "Morph Ball.",
+                            "hudmemoText": "Morph Ball acquired!",
+                            "currIncrease": 1,
+                            "maxIncrease": 1,
+                            "respawn": false,
+                            "model": "Morph Ball",
+							"position": [
+                                -355.17,
+                                309.40,
+                                -30.70
+                            ]
+                        },
+						{
+                            "type": "Morph Ball Bomb",
+                            "scanText": "Morph Ball Bomb.",
+                            "hudmemoText": "Morph Ball Bombs acquired!",
+                            "currIncrease": 1,
+                            "maxIncrease": 1,
+                            "respawn": false,
+                            "model": "Morph Ball Bomb",
+							"position": [
+                                -330.62,
+                                401.97,
+                                -31.71
+                            ]
+                        }
+                    ],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Disabled",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "Missiles"
+                        },
+                        "2": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "Missiles"
+                        },
+                        "3": {
+                            "shieldType": "Plasma",
+                            "blastShieldType": "None"
+                        },
+                        "4": {
+                            "shieldType": "Bomb",
+                            "blastShieldType": "None"
+                        }
+                    }
+					
+                },
+                "Gully": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Disabled",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Disabled",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Canyon Cavern": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Temple Hall": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "Missiles"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Alcove": {
+                    "pickups": [
+                        {
+                            "type": "Flamethrower",
+                            "scanText": "Flamethrower.",
+                            "hudmemoText": "Flamethrower acquired!",
+                            "currIncrease": 1,
+                            "maxIncrease": 1,
+                            "respawn": false,
+                            "model": "Flamethrower"
+                        }
+                    ],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Plasma",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Waterfall Cavern": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Bombs",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Tallon Canyon": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "2": {
+                            "shieldType": "Disabled",
+                            "blastShieldType": "None"
+                        },
+                        "3": {
+                            "shieldType": "Plasma",
+                            "blastShieldType": "Flamethrower"
+                        }
+                    }
+                },
+                "Temple Security Station": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Frigate Crash Site": {
+                    "pickups": [
+                        {
+                            "type": "Missile",
+                            "scanText": "Missile Expansion. Provides 5 Missiles.",
+                            "hudmemoText": "Missile Expansion acquired!",
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
+                            "respawn": false,
+                            "model": "Missile",
+							"position": [ -160.37, 447.56, -43.57 ]
+                            
+                        }
+                    ],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "2": {
+                            "shieldType": "Plasma",
+                            "blastShieldType": "None"
+                        }
+                    },
+					"deleteIds": [
+						524308,
+						524307,
+						524306,
+						524305
+					],
+					"removeWater": true,
+					"liquids": [
+                        {
+                            "type": "water",
+                            "position": [
+                                -138.1816,
+                                466.348,
+                                -68.530
+                            ],
+                            "scale": [
+                                300.63401,
+                                400.825996,
+                                15.159001
+                            ]
+                        }
+                    ],					
+					"platforms":[
+						{
+						"position": [-116.703, 485.403, -64.187],
+						"rotation": [25,-25,0]
+						},
+						{
+						"position": [-138.45, 440.79, -40.2],
+						"rotation": [0,0,0]
+						},
+						{
+						"position": [-162.37, 445.56, -44.07],
+						"rotation": [0,0,0]
+						}
+					]
+                },
+                "Transport Tunnel A": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Root Tunnel": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Plasma",
+                            "blastShieldType": "Flamethrower"
+                        }
+                    }
+                },
+                "Temple Lobby": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "Missiles"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Frigate Access Tunnel": {
+                    "pickups": [
+						{
+							"type": "Energy Tank",
+                            "scanText": "Energy Tank. Provides 100 Energy.",
+                            "hudmemoText": "Energy Tank acquired!",
+                            "currIncrease": 1,
+                            "maxIncrease": 1,
+                            "respawn": false,
+                            "model": "Energy Tank",
+							"position": [
+                                -66.262,
+                                465.820,
+                                -42.571
+                            ]
+						}
+					],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Overgrown Cavern": {
+                    "pickups": [
+                        {
+                            "type": "Missile",
+                            "scanText": "Missile Expansion. Provides 5 Missiles.",
+                            "hudmemoText": "Missile Expansion acquired!",
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
+                            "respawn": false,
+                            "model": "Missile"
+                        }
+                    ],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Plasma",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Transport to Chozo Ruins West": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Root Cave": {                    
+                    "pickups": [
+                        {
+                            "type": "Energy Tank",
+                            "scanText": "Energy Tank. Provides 100 Energy.",
+                            "hudmemoText": "Energy Tank acquired!",
+                            "currIncrease": 1,
+                            "maxIncrease": 1,
+                            "respawn": false,
+                            "model": "Energy Tank"
+                        }
+                    ],                 
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "2": {
+                            "shieldType": "Disabled",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Artifact Temple": {
+                    "pickups": [
+                        {
+                            "type": "Missile",
+                            "scanText": "Missile Expansion. Provides 5 Missiles.",
+                            "hudmemoText": "Missile Expansion acquired!",
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
+                            "respawn": false,
+                            "model": "Missile"
+                        }
+                    ],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Main Ventilation Shaft Section C": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    },
+                    "removeWater": true,
+                    "deleteIds": [
+                        1114207
+                    ]
+                },
+                "Transport Tunnel C": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Transport Tunnel B": {
+                    "pickups": [
+                        {
+                            "type": "Missile",
+                            "scanText": "Missile Expansion. Provides 5 Missiles.",
+                            "hudmemoText": "Missile Expansion acquired!",
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
+                            "respawn": false,
+                            "model": "Missile"
+                        }
+                    ],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Plasma",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Arbor Chamber": {
+                    "pickups": [
+                        {
+                            "type": "Missile",
+                            "scanText": "Shiny Missile Expansion. Provides 25 Missiles.",
+                            "hudmemoText": "Shiny Missile Expansion acquired!",
+                            "currIncrease": 25,
+                            "maxIncrease": 25,
+                            "respawn": false,
+                            "model": "Shiny Missile"
+                        }
+                    ],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Main Ventilation Shaft Section B": {
+                    "pickups": [
+						{
+                            "type": "Space Jump Boots",
+                            "scanText": "Space Jump Boots",
+                            "hudmemoText": "Space Jump Boots acquired!",
+                            "currIncrease": 1,
+                            "maxIncrease": 1,
+                            "respawn": false,
+                            "model": "Space Jump Boots",
+							"position": [
+                                31.24,
+                                485.25,
+                                -59.914
+                            ]
+                        }
+					],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    },
+                    "removeWater": true,
+					"deleteIds": [ 1376364 ]
+                },
+                "Transport to Chozo Ruins East": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Transport to Magmoor Caverns East": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Plasma",
+                            "blastShieldType": "Flamethrower"
+                        }
+                    }
+                },
+                "Main Ventilation Shaft Section A": {
+                    "pickups": [],
+                    "doors": {}
+                    },
+                "Reactor Core": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Reactor Access": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Cargo Freight Lift to Deck Gamma": {
+                    "pickups": [
+                        {
+                            "type": "Missile",
+                            "scanText": "Missile Expansion. Provides 5 Missiles.",
+                            "hudmemoText": "Missile Expansion acquired!",
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
+                            "respawn": false,
+                            "model": "Missile"
+                        }
+                    ],
+                    "doors": {}
+                },
+                "Savestation": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Deck Beta Transit Hall": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Biohazard Containment": {
+                    "pickups": [
+                        {
+                            "type": "Missile",
+                            "scanText": "Missile Expansion. Provides 5 Missiles.",
+                            "hudmemoText": "Missile Expansion acquired!",
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
+                            "respawn": false,
+                            "model": "Missile"
+                        }
+                    ],
+                    "doors": {}
+                },
+                "Deck Beta Security Hall": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Biotech Research Area 1": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Deck Beta Conduit Hall": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Connection Elevator to Deck Beta": {
+                    "pickups": [],
+                    "doors": {}                   
+                },
+                "Hydro Access Tunnel": {
+                    "pickups": [
+                        {
+                            "type": "Missile",
+                            "scanText": "Missile Expansion. Provides 5 Missiles.",
+                            "hudmemoText": "Missile Expansion acquired!",
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
+                            "respawn": false,
+                            "model": "Missile"
+                        }
+                    ],
+                    "doors": {}
+                },
+                "Great Tree Hall": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Great Tree Chamber": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Transport Tunnel D": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Life Grove Tunnel": {
+                    "pickups": [
+                        {
+                            "type": "Missile",
+                            "scanText": "Missile Expansion. Provides 5 Missiles.",
+                            "hudmemoText": "Missile Expansion acquired!",
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
+                            "respawn": false,
+                            "model": "Missile"
+                        }
+                    ],
+                    "doors": {}
+                },
+                "Transport Tunnel E": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Transport to Chozo Ruins South": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Life Grove": {
+                    "pickups": [
+                        {
+                            "type": "Missile",
+                            "scanText": "Missile Expansion. Provides 5 Missiles.",
+                            "hudmemoText": "Missile Expansion acquired!",
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
+                            "respawn": false,
+                            "model": "Missile"
+                        },
+                        {
+                            "type": "Missile",
+                            "scanText": "Missile Expansion. Provides 5 Missiles.",
+                            "hudmemoText": "Missile Expansion acquired!",
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
+                            "respawn": false,
+                            "model": "Missile"
+                        }
+                    ],
+                    "doors": {}
+                },
+                "Transport to Phazon Mines East": {
+                    "pickups": [],
+                    "doors": {}
+                    }
+                }
+            },
+        "Chozo Ruins": {
+            "transports": {
+                "Chozo Ruins West\u0000(Main Plaza)": "Magmoor Caverns South\u0000(Magmoor Workstation, Save Station)",
+                "Chozo Ruins North\u0000(Sun Tower)": "Tallon Overworld West\u0000(Root Cave)",
+                "Chozo Ruins East\u0000(Reflecting Pool, Save Station)": "Tallon Overworld East\u0000(Frigate Crash Site)",
+                "Chozo Ruins South\u0000(Reflecting Pool, Far End)": "Tallon Overworld North\u0000(Tallon Canyon)"
+            },
+            "rooms": {
+                "Transport to Tallon Overworld North": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Ruins Entrance": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Plasma",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Main Plaza": {
+                    "pickups": [
+                        {
+                            "type": "Missile",
+                            "scanText": "Missile Expansion. Provides 5 Missiles.",
+                            "hudmemoText": "Missile Expansion acquired!",
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
+                            "respawn": false,
+                            "model": "Missile"
+                        },
+                        {
+                            "type": "Missile",
+                            "scanText": "Missile Expansion. Provides 5 Missiles.",
+                            "hudmemoText": "Missile Expansion acquired!",
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
+                            "respawn": false,
+                            "model": "Missile"
+                        },
+                        {
+                            "type": "Energy Tank",
+                            "scanText": "Energy Tank. Provides 100 Energy.",
+                            "hudmemoText": "Energy Tank acquired!",
+                            "currIncrease": 1,
+                            "maxIncrease": 1,
+                            "respawn": false,
+                            "model": "Energy Tank"
+                        },
+                        {
+                            "type": "Missile",
+                            "scanText": "Missile Expansion. Provides 5 Missiles.",
+                            "hudmemoText": "Missile Expansion acquired!",
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
+                            "respawn": false,
+                            "model": "Missile"
+                        }
+                    ],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "Missiles"
+                        },
+                        "1": {
+                            "shieldType": "Plasma",
+                            "blastShieldType": "Flamethrower"
+                        },
+                        "2": {
+                            "shieldType": "Disabled",
+                            "blastShieldType": "None"
+                        },
+                        "3": {
+                            "shieldType": "Disabled",
+                            "blastShieldType": "None"
+                        }
+                    },
+					"platforms": [
+                        {
+                            "position": [
+                                126.7,
+                                -45.557,
+                                21.43
+                            ],
+                            "rotation": [
+                                0,
+                                90,
+                                8.75
+                            ],
+							"xrayOnly": true
+						}
+                    ]
+                },
+                "Ruined Fountain Access": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Ruined Shrine Access": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Nursery Access": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Plaza Access": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Piston Tunnel": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Ruined Fountain": {
+                    "pickups": [
+                        {
+                            "type": "Super Missile",
+                            "scanText": "Super Missile",
+                            "hudmemoText": "Super Missile acquired!",
+                            "currIncrease": 1,
+                            "maxIncrease": 1,
+                            "respawn": false,
+                            "model": "Super Missile"
+                        }
+                    ],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "2": {
+                            "shieldType": "Disabled",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Ruined Shrine": {
+                    "pickups": [
+                        {
+                            "type": "Missile",
+                            "scanText": "Missile Expansion. Provides 5 Missiles.",
+                            "hudmemoText": "Missile Expansion acquired!",
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
+                            "respawn": false,
+                            "model": "Missile"
+                        },
+                        {
+                            "type": "Missile",
+                            "scanText": "Missile Expansion. Provides 5 Missiles.",
+                            "hudmemoText": "Missile Expansion acquired!",
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
+                            "respawn": false,
+                            "model": "Missile"
+                        },
+                        {
+                            "type": "Missile",
+                            "scanText": "Missile Expansion. Provides 5 Missiles.",
+                            "hudmemoText": "Missile Expansion acquired!",
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
+                            "respawn": false,
+                            "model": "Missile"
+                        }
+                    ],
+                    "doors": {}
+                },
+                "Eyon Tunnel": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Vault": {
+                    "pickups": [
+                        {
+                            "type": "Energy Tank",
+                            "scanText": "Energy Tank. Provides 100 Energy.",
+                            "hudmemoText": "Energy Tank acquired!",
+                            "currIncrease": 1,
+                            "maxIncrease": 1,
+                            "respawn": false,
+                            "model": "Energy Tank"
+                        }
+                    ],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Training Chamber": {
+                    "pickups": [
+                        {
+                            "type": "Missile",
+                            "scanText": "Missile Expansion. Provides 5 Missiles.",
+                            "hudmemoText": "Missile Expansion acquired!",
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
+                            "respawn": false,
+                            "model": "Missile"
+                        }
+                    ],
+                    "doors": {}
+                },
+                "Arboretum Access": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Meditation Fountain": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Tower of Light Access": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Ruined Nursery": {
+                    "pickups": [
+                        {
+                            "type": "Missile",
+                            "scanText": "Missile Expansion. Provides 5 Missiles.",
+                            "hudmemoText": "Missile Expansion acquired!",
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
+                            "respawn": false,
+                            "model": "Missile"
+                        }
+                    ],
+                    "doors": {}
+                },
+                "Vault Access": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Training Chamber Access": {
+                    "pickups": [
+                        {
+                            "type": "Missile",
+                            "scanText": "Missile Expansion. Provides 5 Missiles.",
+                            "hudmemoText": "Missile Expansion acquired!",
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
+                            "respawn": false,
+                            "model": "Missile"
+                        }
+                    ],
+                    "doors": {}
+                },
+                "Arboretum": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "2": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Magma Pool": {
+                    "pickups": [
+                        {
+                            "type": "Missile",
+                            "scanText": "Missile Expansion. Provides 5 Missiles.",
+                            "hudmemoText": "Missile Expansion acquired!",
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
+                            "respawn": false,
+                            "model": "Missile"
+                        }
+                    ],
+                    "doors": {}
+                },
+                "Tower of Light": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Save Station 1": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "North Atrium": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Transport to Magmoor Caverns North": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "2": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "Super Missile"
+                        }
+                    }
+                },
+                "Sunchamber Lobby": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Gathering Hall Access": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Tower Chamber": {
+                    "pickups": [
+                        {
+                            "type": "Missile",
+                            "scanText": "Missile Expansion. Provides 5 Missiles.",
+                            "hudmemoText": "Missile Expansion acquired!",
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
+                            "respawn": false,
+                            "model": "Missile"
+                        }
+                    ],
+                    "doors": {}
+                },
+                "Ruined Gallery": {
+                    "pickups": [
+                        {
+                            "type": "Missile",
+                            "scanText": "Missile Expansion. Provides 5 Missiles.",
+                            "hudmemoText": "Missile Expansion acquired!",
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
+                            "respawn": false,
+                            "model": "Missile"
+                        },
+                        {
+                            "type": "Missile",
+                            "scanText": "Missile Expansion. Provides 5 Missiles.",
+                            "hudmemoText": "Missile Expansion acquired!",
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
+                            "respawn": false,
+                            "model": "Missile"
+                        }
+                    ],
+                    "doors": {}
+                },
+                "Sun Tower": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Disabled",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Transport Access North": {
+                    "pickups": [
+                        {
+                            "type": "Missile",
+                            "scanText": "Shiny Missile Expansion. Provides 25 Missiles.",
+                            "hudmemoText": "Shiny Missile Expansion acquired!",
+                            "currIncrease": 25,
+                            "maxIncrease": 25,
+                            "respawn": false,
+                            "model": "Shiny Missile"
+                        }
+                    ],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Disabled",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    },
+                    "deleteIds": [1966126, 1966122, 1966129]
+                },
+                "Sunchamber Access": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Charge",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Gathering Hall": {
+                    "pickups": [
+                        {
+                            "type": "Missile",
+                            "scanText": "Missile Expansion. Provides 5 Missiles.",
+                            "hudmemoText": "Missile Expansion acquired!",
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
+                            "respawn": false,
+                            "model": "Missile"
+                        }
+                    ],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "2": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "Missiles"
+                        },
+                        "3": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Totem Access": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Map Station": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Sun Tower Access": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Hive Totem": {
+                    "pickups": [
+                        {
+                            "type": "Missile",
+                            "scanText": "Missile Expansion. Provides 5 Missiles.",
+                            "hudmemoText": "Missile Expansion acquired!",
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
+                            "respawn": false,
+                            "model": "Missile"
+                        }
+                    ],
+                    "doors": {}
+                },
+                "Sunchamber": {
+                    "pickups": [
+                        {
+                            "type": "Artifact of Nature",
+                            "scanText": "Artifact of Nature",
+                            "hudmemoText": "Artifact of Nature acquired!",
+                            "currIncrease": 1,
+                            "maxIncrease": 1,
+                            "respawn": false,
+                            "model": "Artifact of Nature"
+                        },
+                        {
+                            "type": "Missile",
+                            "scanText": "Missile Expansion. Provides 5 Missiles.",
+                            "hudmemoText": "Missile Expansion acquired!",
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
+                            "respawn": false,
+                            "model": "Missile"
+                        }
+                    ],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Watery Hall Access": {
+                    "pickups": [
+                        {
+                            "type": "Missile",
+                            "scanText": "Missile Expansion. Provides 5 Missiles.",
+                            "hudmemoText": "Missile Expansion acquired!",
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
+                            "respawn": false,
+                            "model": "Missile"
+                        }
+                    ],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "Missile"
+                        }
+                    }
+                },
+                "Save Station 2": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "East Atrium": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Watery Hall": {
+                    "pickups": [
+                        {
+                            "type": "Missile",
+                            "scanText": "Missile Expansion. Provides 5 Missiles.",
+                            "hudmemoText": "Missile Expansion acquired!",
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
+                            "respawn": false,
+                            "model": "Missile"
+                        },
+                        {
+                            "type": "Energy Tank",
+                            "scanText": "Energy Tank. Provides 100 Energy.",
+                            "hudmemoText": "Energy Tank acquired!",
+                            "currIncrease": 1,
+                            "maxIncrease": 1,
+                            "respawn": false,
+                            "model": "Energy Tank"
+                        }
+                    ],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Energy Core Access": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Dynamo Access": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Energy Core": {
+                    "pickups": [],
+                    "doors": {
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "2": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Dynamo": {
+                    "pickups": [
+                        {
+                            "type": "Spider Ball",
+                            "scanText": "Spider Ball.",
+                            "hudmemoText": "Spider Ball acquired!",
+                            "currIncrease": 1,
+                            "maxIncrease": 1,
+                            "respawn": false,
+                            "model": "Spider Ball"
+                        },
+                        {
+                            "type": "Energy Tank",
+                            "scanText": "Energy Tank. Provides 100 Energy.",
+                            "hudmemoText": "Energy Tank acquired!",
+                            "currIncrease": 1,
+                            "maxIncrease": 1,
+                            "respawn": false,
+                            "model": "Energy Tank"
+                        }
+                    ],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Burn Dome Access": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "Super Missile"
+                        }
+                    }
+                },
+                "West Furnace Access": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Burn Dome": {
+                    "pickups": [
+                        {
+                            "type": "Energy Tank",
+                            "scanText": "Energy Tank. Provides 100 Energy.",
+                            "hudmemoText": "Energy Tank acquired!",
+                            "currIncrease": 1,
+                            "maxIncrease": 1,
+                            "respawn": false,
+                            "model": "Energy Tank"
+                        },
+                        {
+                            "type": "Plasma Beam",
+                            "scanText": "Plasma Beam.",
+                            "hudmemoText": "Plasma Beam acquired!",
+                            "currIncrease": 1,
+                            "maxIncrease": 1,
+                            "respawn": false,
+                            "model": "Plasma Beam"
+                        }
+                    ],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Plasma",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Furnace": {
+                    "pickups": [
+                        {
+                            "type": "Missile",
+                            "scanText": "Missile Expansion. Provides 5 Missiles.",
+                            "hudmemoText": "Missile Expansion acquired!",
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
+                            "respawn": false,
+                            "model": "Missile"
+                        },
+                        {
+                            "type": "Missile",
+                            "scanText": "Missile Expansion. Provides 5 Missiles.",
+                            "hudmemoText": "Missile Expansion acquired!",
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
+                            "respawn": false,
+                            "model": "Missile"
+                        }
+                    ],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "East Furnace Access": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Crossway Access West": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Disabled",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Hall of the Elders": {
+                    "pickups": [
+                        {
+                            "type": "Missile",
+                            "scanText": "Missile Expansion. Provides 5 Missiles.",
+                            "hudmemoText": "Missile Expansion acquired!",
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
+                            "respawn": false,
+                            "model": "Missile"
+                        }
+                    ],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Disabled",
+                            "blastShieldType": "None"
+                        },
+                        "2": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "3": {
+                            "shieldType": "Disabled",
+                            "blastShieldType": "None"
+                        },
+                        "4": {
+                            "shieldType": "Wave",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Crossway": {
+                    "pickups": [
+                        {
+                            "type": "Missile",
+                            "scanText": "Missile Expansion. Provides 5 Missiles.",
+                            "hudmemoText": "Missile Expansion acquired!",
+                            "currIncrease": 5,
+                            "maxIncrease": 5,
+                            "respawn": false,
+                            "model": "Missile"
+                        }
+                    ],
+                    "doors": {}
+                },
+                "Reflecting Pool Access": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Elder Hall Access": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Crossway Access South": {
+                    "pickups": [],
+                    "doors": {}
+                },
+                "Elder Chamber": {
+                    "pickups": [
+                        {
+                            "type": "Energy Tank",
+                            "scanText": "Energy Tank. Provides 100 Energy.",
+                            "hudmemoText": "Energy Tank acquired!",
+                            "currIncrease": 1,
+                            "maxIncrease": 1,
+                            "respawn": false,
+                            "model": "Energy Tank"
+                        }
+                    ],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Wave",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Reflecting Pool": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "2": {
+                            "shieldType": "Charge",
+                            "blastShieldType": "None"
+                        },
+                        "3": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Save Station 3": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Plasma",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Transport Access South": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        },
+                        "1": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Antechamber": {
+                    "pickups": [
+                        {
+                            "type": "Charge Beam",
+                            "scanText": "Charge Beam",
+                            "hudmemoText": "Charge Beam acquired!",
+                            "currIncrease": 1,
+                            "maxIncrease": 1,
+                            "respawn": false,
+                            "model": "Charge Beam"
+                        }
+                    ],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Charge",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Transport to Tallon Overworld East": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Plasma",
+                            "blastShieldType": "None"
+                        }
+                    }
+                },
+                "Transport to Tallon Overworld South": {
+                    "pickups": [],
+                    "doors": {
+                        "0": {
+                            "shieldType": "Blue",
+                            "blastShieldType": "None"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "inputIso": "prime.iso",
+    "outputIso": "New Path.iso",
+    "strg": {
+        "2844810193": ["A blast of heat should be able to remove this covering."],
+        "860296596": ["A blast of ice should be able to remove this covering."],
+        "311650374": ["A blast of energy should be able to remove this covering."],
+        "2798375000": ["A blast of heat should be able to remove this covering."],
+        "1748347101": ["A blast of ice should be able to remove this covering."],
+        "2193104567": ["A blast of energy should be able to remove this covering."]
+    }
+}
