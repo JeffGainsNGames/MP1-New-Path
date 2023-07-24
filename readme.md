@@ -1,5 +1,5 @@
 # Metroid Prime 1: New Path
-- [Download](https://github.com/JeffGainsNGames/MP1-New-Path/releases/download/v1.1/New-Path-v1.1.zip)
+- [Download](https://github.com/JeffGainsNGames/MP1-New-Path/releases/download/v1.2/New-Path-v1.2.zip)
 - [Spoiler](spoiler/spoiler.md)
 
 ### Credits
