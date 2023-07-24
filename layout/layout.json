@@ -37,7 +37,7 @@
         "visibleBoundingBox": false
     },
     "gameConfig": {
-        "resultsString": "New Path 1.0",
+        "resultsString": "New Path 1.2",
         "bossSizes": {
             "parasiteQueen": 1.0,
             "incineratorDrone": 1.25,
@@ -57,8 +57,8 @@
         "shufflePickupPosition": false,
         "shufflePickupPosAllRooms": false,
         "removeVanillaBlastShields": true,
-        "startingRoom": "Tallon:Landing Site",
-        "startingMemo": "Initial scans indicate morph related upgrades in the area",
+        "startingRoom": "Tallon: Landing Site",
+        "startingMemo": "Initial scans indicate morph related upgrades in the immediate area",
         "warpToStart": false,
         "springBall": false,
         "hallOfTheEldersBombSlotCovers": {
@@ -130,7 +130,7 @@
             "gameNameFull": "Metroid Prime: New Path",
             "description": "New Path"
         },
-        "mainMenuMessage": "New Path 1.0",
+        "mainMenuMessage": "New Path 1.2",
         "creditsString": "&push;&font=C29C51F1;&main-color=#7500ff;New Path by JeffGainsNGames&pop;\n&push;&font=C29C51F1;&main-color=#3BEC94;Major Item Locations&pop;\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Wave Beam&pop;\nPhendrana Drifts - Research Core\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Ice Beam&pop;\nPhendrana Drifts - Chozo Ice Temple\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Plasma Beam&pop;\nChozo Ruins - Burn Dome\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Missile Launcher&pop;\nTallon Overworld - Frigate Crash Site\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Grapple Beam&pop;\nMissing\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Scan Visor&pop;\nStarting\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Thermal Visor&pop;\nMissing\n\n&push;&font=C29C51F1;&main-color=#3BEC94;X-Ray Visor&pop;\nPhazon Mines - Central Dynamo\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Space Jump Boots&pop;\nTallon Overworld - Main Ventilation Shaft B\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Morph Ball&pop;\nTallon Overworld - Landing Site\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Morph Ball Bomb&pop;\nTallon Overworld - Landing Site\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Boost Ball&pop;\nMissing\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Spider Ball&pop;\nChozo Ruins - Dynamo\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Power Bomb&pop;\nPhendrana Drifts - Chapel of Elders\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Varia Suit&pop;\nPhazon Mines - Main Quarry\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Gravity Suit&pop;\nMissing\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Phazon Suit&pop;\nPhazon Mines - Elite Quarters\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Super Missile&pop;\nChozo Ruins - Ruined Fountain\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Flamethrower&pop;\nTallon - Alcove\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Artifact of Nature&pop;\nChozo Ruins - Sunchamber\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Artifact of Warrior&pop;\nPhazon Mines - Phazon Processing Access\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Artifact of World&pop;\nPhendrana Drifts - Quarantine Cave\n\n\n\n\n\n&push;&font=C29C51F1;&main-color=#3BEC94;Thank you to toasterparty for providing the tools to make this possible and answering all my questions\nThank you to the community for help in troubleshooting and testing&pop;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSee you next time!",
 		"artifactHints": {
             "Artifact of Chozo": "Chozo",
@@ -632,7 +632,7 @@
                     "pickups": [],
                     "doors": {
                         "0": {
-                            "shieldType": "Blue",
+                            "shieldType": "Wave",
                             "blastShieldType": "None"
                         },
                         "1": {
@@ -663,7 +663,7 @@
                     ],
                     "doors": {
                         "0": {
-                            "shieldType": "Blue",
+                            "shieldType": "Wave",
                             "blastShieldType": "None"
                         },
                         "1": {
@@ -1876,6 +1876,16 @@
                             "maxIncrease": 5,
                             "respawn": false,
                             "model": "Missile"
+                        },
+						{
+                            "type": "Missile",
+                            "scanText": "Shiny Missile Expansion. Provides 25 Missiles.",
+                            "hudmemoText": "Shiny Missile Expansion acquired!",
+                            "currIncrease": 25,
+                            "maxIncrease": 25,
+                            "respawn": false,
+                            "model": "Shiny Missile",
+							"position": [48.26, -65.66, -134.1]
                         }
                     ],
                     "doors": {
@@ -2179,7 +2189,7 @@
                             "blastShieldType": "None"
                         },
                         "4": {
-                            "shieldType": "Bomb",
+                            "shieldType": "Blue",
                             "blastShieldType": "None"
                         }
                     }
@@ -2247,7 +2257,7 @@
                     "pickups": [],
                     "doors": {
                         "0": {
-                            "shieldType": "Bombs",
+                            "shieldType": "Blue",
                             "blastShieldType": "None"
                         },
                         "1": {
@@ -2310,7 +2320,7 @@
                             "blastShieldType": "None"
                         },
                         "1": {
-                            "shieldType": "Blue",
+                            "shieldType": "Bomb",
                             "blastShieldType": "None"
                         },
                         "2": {
@@ -2346,7 +2356,7 @@
 						"rotation": [25,-25,0]
 						},
 						{
-						"position": [-138.45, 440.79, -40.2],
+						"position": [-139, 440.79, -38],
 						"rotation": [0,0,0]
 						},
 						{
@@ -2417,7 +2427,7 @@
                             "blastShieldType": "None"
                         },
                         "1": {
-                            "shieldType": "Blue",
+                            "shieldType": "Bomb",
                             "blastShieldType": "None"
                         }
                     }
@@ -2457,13 +2467,13 @@
                 "Root Cave": {                    
                     "pickups": [
                         {
-                            "type": "Energy Tank",
-                            "scanText": "Energy Tank. Provides 100 Energy.",
-                            "hudmemoText": "Energy Tank acquired!",
-                            "currIncrease": 1,
-                            "maxIncrease": 1,
+                            "type": "Missile",
+                            "scanText": "Shiny Missile Expansion. Provides 25 Missiles.",
+                            "hudmemoText": "Shiny Missile Expansion acquired!",
+                            "currIncrease": 25,
+                            "maxIncrease": 25,
                             "respawn": false,
-                            "model": "Energy Tank"
+                            "model": "Shiny Missile"
                         }
                     ],                 
                     "doors": {
@@ -2554,17 +2564,7 @@
                     }
                 },
                 "Arbor Chamber": {
-                    "pickups": [
-                        {
-                            "type": "Missile",
-                            "scanText": "Shiny Missile Expansion. Provides 25 Missiles.",
-                            "hudmemoText": "Shiny Missile Expansion acquired!",
-                            "currIncrease": 25,
-                            "maxIncrease": 25,
-                            "respawn": false,
-                            "model": "Shiny Missile"
-                        }
-                    ],
+                    "pickups": [],
                     "doors": {
                         "0": {
                             "shieldType": "Blue",
